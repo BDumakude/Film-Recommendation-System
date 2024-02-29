@@ -20,7 +20,7 @@ def get_poster(id):
     return full_poster_path
 
 def get_recommendations(film, model):
-    if model == 'SpacyLargeModel':
+    if model == 'spaCy Large Model':
         similarity = similarity_spacy
     else:
         similarity = similarity_cv
